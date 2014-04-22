@@ -35,12 +35,6 @@ public class Gravatar{
 		}
 		this.hash = hash(email.toLowerCase());
 	}
-	
-	public static void main(String[] args){
-		Gravatar g = new Gravatar("rodrigopsasaki@gmail.com");
-		g.setSize(150);
-		System.out.println(g.getAvatarUrl());
-	}
 
 	public int getSize(){
 		return size;
